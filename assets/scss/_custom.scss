@@ -1,3 +1,7 @@
+body {
+  font-size: 1.3rem;
+}
+
 .avatar {
   overflow: visible;
   margin-top: 3rem;
@@ -417,9 +421,13 @@ body {
 
 // Contact
 .contact {
-  &__item > i {
-    background-color: var(--cv-right-icon-bg);
-    color: var(--cv-right-icon-fg);
+  &__item {
+    font-size: 1.2rem;
+
+    & > i {
+      background-color: var(--cv-right-icon-bg);
+      color: var(--cv-right-icon-fg);
+    }
   }
 
   &__link {
