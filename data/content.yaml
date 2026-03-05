@@ -141,7 +141,6 @@ Experience:
         Badges: ['ASP.NET', 'C#', 'SharePoint', 'SQL Server']
 
   - Employer: Cascade HR
-    Class: "experience__extra_padding"
     Positions:
       - Title: Project Web Developer
         Date: Nov 2007 – Dec 2009
@@ -152,7 +151,6 @@ Experience:
         Badges: ['ASP.NET', 'C#', 'SQL Server']
 
   - Employer: Skipton Financial Services
-    Class: "experience__extra_padding"
     Positions:
       - Title: Business Systems Developer
         Date: Apr 2007 – Nov 2007
@@ -163,7 +161,6 @@ Experience:
         Badges: ['ASP.NET', 'C#', 'SQL Server', 'Finance']
 
   - Employer: Carlsberg UK Ltd
-    Class: "experience__extra_padding"
     Positions:
       - Title: Systems Engineer
         Date: Dec 2003 – Apr 2007
