@@ -1,0 +1,237 @@
+BasicInfo:
+  FirstName: Jared
+  LastName: Holgate
+  Subtitle: SENIOR SOFTWARE ENGINEER AND ARCHITECT
+  Photo: img/avatar.png
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: '<a class="contact__link" href="mailto:jared@holgate.dev">jared@holgate.dev</a>'
+    - Icon: fab fa-linkedin
+      Info: '<a class="contact__link" href="https://linkedin.com/in/jaredfholgate/" target="_blank">linkedin.com/in/jaredfholgate</a>'
+    - Icon: fab fa-github
+      Info: '<a class="contact__link" href="https://github.com/jaredfholgate" target="_blank">github.com/jaredfholgate</a>'
+    - Icon: fas fa-globe
+      Info: '<a class="contact__link" href="https://jaredholgate.co.uk" target="_blank">jaredholgate.co.uk</a>'
+    - Icon: fas fa-graduation-cap
+      Info: '<a class="contact__link" href="https://learn.microsoft.com/users/jaredfholgate/transcript/dg8y2snx8yk3lz0?tab=credentials-tab" target="_blank">Microsoft Learn Transcript</a>'
+    - Icon: fas fa-award
+      Info: '<a class="contact__link" href="https://www.credly.com/users/jared-holgate/badges" target="_blank">Credly Badges</a>'
+    - Icon: fas fa-map-marker-alt
+      Info: Leeds, UK (Remote)
+
+Profile: >
+  Focused on building and operating enterprise-grade cloud platform foundations through reusable infrastructure patterns, Terraform/IaC, and continuous delivery.
+  Hands-on technical lead who sets standards, reviews and ships code, and turns strategy into working reference implementations and automation.
+  Comfortable working across product, platform, and customer-facing engineering to drive adoption with maintainable, supportable solutions.
+  Polyglot programmer and fast learner, recently delivering in C#, Go, and TypeScript alongside scripting and automation.
+
+RecentHighlights:
+  - Header: Azure Verified Modules (AVM)
+    Details:
+      - Tech lead, own and maintain <a href="https://azure.github.io/Azure-Verified-Modules/indexes/terraform/tf-resource-modules/">Azure Verified Modules (AVM)</a>, act as a coach and regularly talk to user groups and partners about AVM and vNext of the Azure Landing Zones modules.
+      - Responsible for managing 100's of Terraform repositories at scale with automation.
+  - Header: Azure Landing Zones
+    Details:
+      - Tech lead, develop and maintain the <a href="https://aka.ms/alz/acc">Azure Landing Zones IaC Accelerator</a> and <a href="https://azure.github.io/Azure-Landing-Zones/accelerator/starter-terraform/module-index/">Azure Landing Zones Terraform modules</a>.
+      - Developed a state migration tool to aid customers in migrating Terraform workloads to AVM. Published <a href="https://aka.ms/alz/tf/migrate">guidance</a> and the <a href="https://aka.ms/tf/migrate/tool">tool</a>. <a href="https://techcommunity.microsoft.com/blog/azuretoolsblog/terraform-azure-verified-modules-for-platform-landing-zone-alz-migration-guidanc/4432035">Blog post</a>.
+  - Header: Workload Identity Federation for Terraform
+    Details:
+      - Worked with the Azure DevOps product group to deliver Workload identity federation Terraform capabilities.
+      - Updated the <a href="https://registry.terraform.io/providers/microsoft/azuredevops/latest/docs">Azure DevOps Terraform Provider</a> (golang), <a href="https://marketplace.visualstudio.com/items?itemName=JasonBJohnson.azure-pipelines-tasks-terraform">Azure Pipelines Terraform Tasks</a> and the <a href="https://marketplace.visualstudio.com/items?itemName=ms-devlabs.custom-terraform-tasks">DevLabs Terraform Task</a> (TypeScript).
+  - Header: ID Token Refresh for Azure DevOps
+    Details:
+      - Orchestrated the introduction of ID Token refresh for Azure DevOps and Terraform across multiple Terraform providers and tools.
+      - Wrote and released v5 of the Azure Pipelines Terraform task. <a href="https://devblogs.microsoft.com/devops/introducing-azure-devops-id-token-refresh-and-terraform-task-version-5/">Blog post</a>.
+  - Header: Azure Code Samples
+    Details:
+      - Created, published, and maintain several Azure code samples.
+      - Examples include <a href="https://learn.microsoft.com/en-us/samples/azure-samples/github-terraform-oidc-ci-cd/github-terraform-oidc-ci-cd/">GitHub OIDC</a>, <a href="https://learn.microsoft.com/en-us/samples/azure-samples/azure-devops-terraform-oidc-ci-cd/azure-devops-terraform-oidc-ci-cd/">Azure DevOps OIDC</a>.
+  - Header: Conference Speaking & Training
+    Details:
+      - Regular speaker at internal conferences (LevelUps, TechConnect and TechReady). Write and deliver sessions on AVM, ALZ, and Terraform best practices.
+      - Author of Microsoft customer facing training on IaC with Terraform and Bicep in the form of a Value Based Delivery. Continue to maintain it, promote it and help others to deliver it.
+  - Header: Community Involvement
+    Details:
+      - Co-organiser of the <a href="https://yorkshiredevops.cloud/">Yorkshire DevOps</a> and <a href="https://yorkshireazuregroup.cloud/">Yorkshire Azure User Group</a> meetups.
+      - Regular speaker at these and other events.
+
+Experience:
+  - Employer: Microsoft
+    Positions:
+      - Title: Senior Cloud Solution Architect – Global Tech Strategy
+        Date: Jun 2024 – Present
+        Place: Leeds, UK (Remote)
+        Details:
+          - Tech lead for Terraform Azure Verified Modules (AVM), supporting module standards and automation at scale. Owner of core networking modules leveraged by 1,000's of customers.
+          - Tech lead for Azure Landing Zones Modules, responsible for building and maintaining Terraform Platform Landing Zone modules. Owner of the ALZ IaC Accelerator, used by 1,000's of customers to onboard onto Microsoft Azure.
+          - Support global 500 customers with complex and large scale deployments, especially with Infrastructure as Code.
+        Badges: ['Terraform', 'Azure', 'Go', 'C#', 'TypeScript', 'IaC', 'DevOps']
+      - Title: Senior Cloud Solution Architect – UK CSU
+        Date: Nov 2022 – Jun 2024
+        Place: Leeds, UK (Remote)
+        Details:
+          - Provide expert level architectural guidance to large scale companies on DevOps, Software Engineering and Cloud Native workloads.
+          - Infrastructure as Code and DevOps SME, asked to speak to customers about scaling IaC on a regular basis.
+          - Core maintainer of ALZ Terraform Modules.
+          - Maintainer of Azure DevOps Terraform provider and Terraform tasks for Azure DevOps Pipelines.
+          - Owner of Terraform customer training materials.
+        Badges: ['Terraform', 'Azure', 'DevOps', 'Bicep', 'Architecture']
+
+  - Employer: HashiCorp
+    Positions:
+      - Title: Senior Customer Success Architect
+        Date: Nov 2021 – Nov 2022
+        Place: Leeds, UK (Remote)
+        Details:
+          - Provided expert level architectural guidance to multinational globally recognised companies.
+          - Terraform SME (Subject Matter Expert) for HashiCorp, which includes product roadmap presentations.
+          - Delivered hands on PoC and demos of Security, Service Mesh Networking and Infrastructure as Code.
+          - Plan, design and host webinars to large groups of customers.
+          - Contribute code and documentation to HashiCorp products.
+          - Mentor and train junior team members.
+        Badges: ['Terraform', 'Vault', 'Consul', 'HCL', 'IaC']
+
+  - Employer: Maples Group
+    Positions:
+      - Title: Principal Technical Architect
+        Date: Apr 2019 – Oct 2021
+        Place: Leeds, UK
+        Details:
+          - Reported directly to the CIO, member of the IT Leadership team.
+          - Responsible for public and hybrid cloud strategy, delivery and adoption.
+          - Support recruiting and developing high performing DevOps teams.
+          - Technical consultant across all IT functions and SaaS for business teams.
+          - Strong focus on security, work in partnership with CISO.
+          - Implemented Infrastructure as Code and brought Git to the operations function.
+        Badges: ['Azure', 'Cloud', 'Architecture', 'DevOps', 'Security']
+      - Title: Head of Software Engineering
+        Date: Jan 2017 – Apr 2019
+        Place: Grand Cayman, Cayman Islands / Montréal, Canada
+        Details:
+          - Reported to CIO, member of IT Leadership team.
+          - Responsible for 6 Software Engineering Teams and supporting functions (UX, QA, etc).
+          - Managed 35 people across 2 locations.
+          - Setup new function in Montreal, recruited and onboarded software engineering teams.
+          - Made major improvements to CI/CD processes and the quality of code.
+          - Delivered quality updates and additions to a suite of over 70 internal and client facing products.
+        Badges: ['Leadership', 'CI/CD', '.NET', 'Agile', 'Recruitment']
+      - Title: Software Development Manager
+        Date: Nov 2012 – Jan 2017
+        Place: Grand Cayman, Cayman Islands
+        Details:
+          - Reported directly to CIO.
+          - Setup a new office and team from scratch in the Cayman Islands.
+          - Recruited and onboarded new software engineers, mainly from overseas and relocating.
+          - Implemented CI/CD.
+          - Upskilled the team with coding practices, such as TDD, SOLID, etc.
+        Badges: ['Leadership', 'CI/CD', 'TDD', '.NET', 'Mentoring']
+      - Title: eCommerce Software Team Leader
+        Date: Dec 2011 – Nov 2012
+        Place: Leeds, UK
+        Details:
+          - Led an Agile development team delivering external-facing eCommerce web applications.
+          - Drove quality and delivery of ASP.NET C# web sites for clients.
+        Badges: ['ASP.NET', 'C#', 'Agile', 'Leadership', 'eCommerce']
+      - Title: Software Developer
+        Date: Jan 2010 – Dec 2011
+        Place: Leeds, UK
+        Details:
+          - Developed ASP.NET and SharePoint solutions, including core system migrations.
+          - Delivered installation and configuration of third-party products alongside bespoke development.
+        Badges: ['ASP.NET', 'C#', 'SharePoint', 'SQL Server']
+
+  - Employer: Cascade HR
+    Class: "experience__extra_padding"
+    Positions:
+      - Title: Project Web Developer
+        Date: Nov 2007 – Dec 2009
+        Place: Leeds, UK
+        Details:
+          - Senior developer in a team of 10, specialising in ASP.NET C# application development on a SQL Server backend.
+          - Delivered project-based web development for HR software products.
+        Badges: ['ASP.NET', 'C#', 'SQL Server']
+
+  - Employer: Skipton Financial Services
+    Class: "experience__extra_padding"
+    Positions:
+      - Title: Business Systems Developer
+        Date: Apr 2007 – Nov 2007
+        Place: Skipton, UK
+        Details:
+          - Lead developer consolidating bespoke systems into a single core third-party application.
+          - Built ASP.NET functionality for financial advisers to view and manage their accounts.
+        Badges: ['ASP.NET', 'C#', 'SQL Server', 'Finance']
+
+  - Employer: Carlsberg UK Ltd
+    Class: "experience__extra_padding"
+    Positions:
+      - Title: Systems Engineer
+        Date: Dec 2003 – Apr 2007
+        Place: Leeds, UK
+        Details:
+          - Developed ASP.NET C# and SQL Server applications as part of a small manufacturing IT team.
+          - Provided IT support, network and Active Directory administration, and application support for production.
+        Badges: ['ASP.NET', 'C#', 'SQL Server', 'Active Directory', 'Networking', 'Server Administration']
+      - Title: Quality System Manager
+        Date: May 2002 – Dec 2003
+        Place: Leeds, UK
+        Details:
+          - Managed auditing, document control and specification management for ISO 9001 accreditation.
+          - Developed VBA and ASP.NET tooling to support quality processes.
+        Badges: ['ASP.NET', 'C#', 'VBA', 'ISO 9001']
+      - Title: Quality Assurance Technician
+        Date: Aug 2000 – May 2002
+        Place: Leeds, UK
+        Details:
+          - Worked as a microbiologist conducting quality assurance testing in a brewery environment.
+          - Managed and ran the brewery taste panel.
+        Badges: ['Microbiology', 'Quality Assurance', 'VBA']
+
+Education:
+  - Course: BSc (hons) Biomedical Sciences
+    Place: Sheffield Hallam University
+    Date: 1996 – 2000
+
+Skills:
+  - Family: Cloud & IaC
+    Items:
+      - Microsoft Azure
+      - HashiCorp Terraform
+      - Bicep
+      - ARM Templates
+  - Family: Languages
+    Items:
+      - C#
+      - Go
+      - TypeScript / JavaScript
+      - PowerShell
+      - Bash
+  - Family: Platforms & Tools
+    Items:
+      - Azure DevOps
+      - GitHub / GitHub Actions
+      - Linux Administration
+      - Windows Administration
+  - Family: Architecture
+    Items:
+      - Network Design
+      - Cloud Landing Zones
+      - ASP.NET
+      - Technical Writing
+
+Diplomas:
+  - Microsoft Azure Solution Architect Expert
+  - Microsoft Azure DevOps Engineer Expert
+  - Microsoft Azure Data Administrator Associate
+  - Microsoft Azure Network Engineer Associate
+  - Microsoft Azure Developer Associate
+  - GitHub Copilot
+  - GitHub Actions
+  - HashiCorp Terraform Associate
+
+Interests:
+  - Distance running & daily exercise
+  - Co-organiser of Yorkshire DevOps & Yorkshire Azure User Group
+  - Live music
+  - Diving & snorkelling
+  - Spending time with family
