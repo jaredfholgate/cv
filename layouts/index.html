@@ -32,6 +32,29 @@
         </div>
     </div>
     <button class="print-btn" onclick="window.print()" title="Print CV">&#128424; Print</button>
+    <button class="dark-toggle" id="darkToggle" title="Toggle dark mode">&#127769; Dark</button>
+    <script>
+    (function() {
+      var btn = document.getElementById('darkToggle');
+      var stored = localStorage.getItem('theme');
+      if (stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        btn.innerHTML = '&#9728;&#65039; Light';
+      }
+      btn.addEventListener('click', function() {
+        var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        if (isDark) {
+          document.documentElement.removeAttribute('data-theme');
+          localStorage.setItem('theme', 'light');
+          btn.innerHTML = '&#127769; Dark';
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          localStorage.setItem('theme', 'dark');
+          btn.innerHTML = '&#9728;&#65039; Light';
+        }
+      });
+    })();
+    </script>
     <div class="footer">
         <span>{{ now.Format "2006" }} © Jared Holgate  |  <a href="{{ .Site.BaseURL }}" target="_blank">cv.jaredholgate.co.uk</a></span>
         <span>  |  <a href="https://github.com/jaredfholgate/cv" target="_blank">GitHub Repo</a></span>
