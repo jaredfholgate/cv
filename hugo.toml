@@ -1,4 +1,4 @@
-baseURL = 'https://cv.jaredholgate.co.uk/'
+baseURL = 'https://jaredholgate.co.uk/cv'
 languageCode = 'en-gb'
 defaultContentLanguage = 'en'
 enableRobotsTXT = true
