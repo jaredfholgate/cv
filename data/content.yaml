@@ -28,10 +28,10 @@ Profile: >
 RecentHighlights:
   - Header: Azure Verified Modules (AVM)
     Details:
-      - Tech lead, own, and maintain <a href="https://azure.github.io/Azure-Verified-Modules/indexes/terraform/tf-resource-modules/">Azure Verified Modules (AVM)</a>.
-      - Coach module owners and regularly talk at user groups and partners about AVM.
+      - Tech lead, own, and maintain <a href="https://aka.ms/avm">Azure Verified Modules (AVM)</a>.
+      - Coach module owners and regularly talk at user groups and partners to evangelise AVM.
       - Responsible for managing 200+ Terraform repositories at scale with automation.
-      - Own and maintain the core networking modules, which are the most widely used modules in AVM and form the basis of many customer and partner deployments.
+      - Amongst many others, I own and maintain the core networking modules, which are the most widely used modules in AVM and form the basis of many customer and partner deployments.
   - Header: Azure Landing Zones (ALZ)
     Details:
       - Tech lead, develop, and maintain the <a href="https://aka.ms/alz/acc">Azure Landing Zones IaC Accelerator</a> and <a href="https://azure.github.io/Azure-Landing-Zones/accelerator/starter-terraform/module-index/">Azure Landing Zones Terraform modules</a>.
