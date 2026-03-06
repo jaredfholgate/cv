@@ -7,11 +7,13 @@ BasicInfo:
     - Icon: fas fa-envelope
       Info: '<a class="contact__link" href="mailto:jared@holgate.dev">jared@holgate.dev</a>'
     - Icon: fab fa-linkedin
-      Info: '<a class="contact__link" href="https://linkedin.com/in/jaredfholgate/" target="_blank">linkedin.com/in/jaredfholgate</a>'
+      Info: '<a class="contact__link" href="https://linkedin.com/in/jaredfholgate/" target="_blank">in/jaredfholgate</a>'
     - Icon: fab fa-github
       Info: '<a class="contact__link" href="https://github.com/jaredfholgate" target="_blank">github.com/jaredfholgate</a>'
     - Icon: fas fa-globe
-      Info: '<a class="contact__link" href="https://jaredholgate.co.uk" target="_blank">jaredholgate.co.uk</a>'
+      Info: '<a class="contact__link" href="https://jaredholgate.co.uk" target="_blank">Personal Blog</a>'
+    - Icon: fas fa-file-alt
+      Info: '<a class="contact__link" href="https://jaredholgate.co.uk/cv" target="_blank">CV / Bio Page</a>'
     - Icon: fas fa-graduation-cap
       Info: '<a class="contact__link" href="https://learn.microsoft.com/users/jaredfholgate/transcript/dg8y2snx8yk3lz0?tab=credentials-tab" target="_blank">Microsoft Learn Transcript</a>'
     - Icon: fas fa-award
