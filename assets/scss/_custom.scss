@@ -216,11 +216,15 @@ details.sideSection {
 
 @media print {
   @page {
-    margin: 1.5rem 0 0 0;
+    margin: 3rem 1.5rem 1rem 1.5rem;
   }
 
   @page :first {
     margin-top: 0;
+  }
+
+  .print-header {
+    display: none;
   }
 
   .print-btn,
@@ -272,6 +276,14 @@ details.sideSection {
   .experience__item,
   .education__item {
     break-inside: avoid;
+  }
+
+  .experience__item:not(:first-child) {
+    padding-top: 0.5rem;
+  }
+
+  .experience__job {
+    margin-bottom: 1rem;
   }
 
   .experience__place {
