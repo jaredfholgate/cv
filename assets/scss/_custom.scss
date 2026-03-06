@@ -273,6 +273,17 @@ details.sideSection {
   .education__item {
     break-inside: avoid;
   }
+
+  .experience__place {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #aaa !important;
+
+    &::before {
+      color: #ccc !important;
+      font-size: 1.1rem;
+    }
+  }
 }
 
 .interests {
