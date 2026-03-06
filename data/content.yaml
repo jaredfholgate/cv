@@ -28,37 +28,37 @@ Profile: >
 RecentHighlights:
   - Header: Azure Verified Modules (AVM)
     Details:
-      - Tech lead, own, and maintain <a href="https://aka.ms/avm">Azure Verified Modules (AVM)</a>.
+      - Tech lead, own, and maintain <a href="https://aka.ms/avm" target="_blank">Azure Verified Modules (AVM)</a>.
       - Coach module owners and regularly talk at user groups and partners to evangelise AVM.
       - Responsible for managing 200+ Terraform repositories at scale with automation.
       - Amongst many others, I own and maintain the core networking modules, which are the most widely used modules in AVM and form the basis of many customer and partner deployments.
   - Header: Azure Landing Zones (ALZ)
     Details:
-      - Tech lead, develop, and maintain the <a href="https://aka.ms/alz/acc">Azure Landing Zones IaC Accelerator</a> and <a href="https://azure.github.io/Azure-Landing-Zones/accelerator/starter-terraform/module-index/">Azure Landing Zones Terraform modules</a>.
+      - Tech lead, develop, and maintain the <a href="https://aka.ms/alz/acc" target="_blank">Azure Landing Zones IaC Accelerator</a> and <a href="https://azure.github.io/Azure-Landing-Zones/accelerator/starter-terraform/module-index/" target="_blank">Azure Landing Zones Terraform modules</a>.
       - Support Microsoft field, customers and partners with onboarding onto Azure and implementing landing zones at scale with Terraform and Bicep.
       - Evangelise Azure landing zone and Terraformbest practices with regular speaking engagements via video, internal conferences, user groups, partner sessions, and customer meetings.
-      - Developed the state migration tool to aid customers in migrating Terraform workloads to AVM. Published <a href="https://aka.ms/alz/tf/migrate">guidance</a> and the <a href="https://aka.ms/tf/migrate/tool">tool</a>. <a href="https://techcommunity.microsoft.com/blog/azuretoolsblog/terraform-azure-verified-modules-for-platform-landing-zone-alz-migration-guidanc/4432035">Blog post</a>.
+      - Developed the state migration tool to aid customers in migrating Terraform workloads to AVM. Published <a href="https://aka.ms/alz/tf/migrate" target="_blank">guidance</a> and the <a href="https://aka.ms/tf/migrate/tool" target="_blank">tool</a>. <a href="https://techcommunity.microsoft.com/blog/azuretoolsblog/terraform-azure-verified-modules-for-platform-landing-zone-alz-migration-guidanc/4432035" target="_blank">Blog post</a>.
   - Header: Workload Identity Federation for Terraform
     Details:
       - Collaborated with the Azure DevOps product group to deliver Workload identity federation Terraform capabilities.
-      - Updated the <a href="https://registry.terraform.io/providers/microsoft/azuredevops/latest/docs">Azure DevOps Terraform Provider</a> (golang), <a href="https://marketplace.visualstudio.com/items?itemName=JasonBJohnson.azure-pipelines-tasks-terraform">Azure Pipelines Terraform Tasks</a> and the <a href="https://marketplace.visualstudio.com/items?itemName=ms-devlabs.custom-terraform-tasks">DevLabs Terraform Task</a> (TypeScript).
-      - Published <a href="https://devblogs.microsoft.com/devops/introduction-to-azure-devops-workload-identity-federation-oidc-with-terraform/">blog post</a> and shared with customers, partners and internal audiences.
+      - Updated the <a href="https://registry.terraform.io/providers/microsoft/azuredevops/latest/docs" target="_blank">Azure DevOps Terraform Provider</a> (golang), <a href="https://marketplace.visualstudio.com/items?itemName=JasonBJohnson.azure-pipelines-tasks-terraform" target="_blank">Azure Pipelines Terraform Tasks</a> and the <a href="https://marketplace.visualstudio.com/items?itemName=ms-devlabs.custom-terraform-tasks" target="_blank">DevLabs Terraform Task</a> (TypeScript).
+      - Published <a href="https://devblogs.microsoft.com/devops/introduction-to-azure-devops-workload-identity-federation-oidc-with-terraform/" target="_blank">blog post</a> and shared with customers, partners and internal audiences.
   - Header: ID Token Refresh for Azure DevOps
     Details:
       - Orchestrated the introduction of ID Token refresh for Azure DevOps and Terraform across multiple Terraform providers and tools.
-      - Wrote and released v5 of the Azure Pipelines Terraform task. <a href="https://devblogs.microsoft.com/devops/introducing-azure-devops-id-token-refresh-and-terraform-task-version-5/">Blog post</a>.
-      - Fully re-wrote of the <a href="https://developer.hashicorp.com/terraform/language/backend/azurerm">azurerm backend docs</a> to provide clarity and best practices by default.
+      - Wrote and released v5 of the <a href="https://marketplace.visualstudio.com/items?itemName=ms-devlabs.custom-terraform-tasks" target="_blank">Azure Pipelines Terraform task</a>. <a href="https://devblogs.microsoft.com/devops/introducing-azure-devops-id-token-refresh-and-terraform-task-version-5/" target="_blank">Blog post</a>.
+      - Fully re-wrote of the <a href="https://developer.hashicorp.com/terraform/language/backend/azurerm" target="_blank">azurerm backend docs</a> to provide clarity and best practices by default.
   - Header: Azure Code Samples
     Details:
       - Created, published, and maintain several Azure code samples.
-      - Examples include <a href="https://learn.microsoft.com/en-us/samples/azure-samples/github-terraform-oidc-ci-cd/github-terraform-oidc-ci-cd/">GitHub OIDC</a>, <a href="https://learn.microsoft.com/en-us/samples/azure-samples/azure-devops-terraform-oidc-ci-cd/azure-devops-terraform-oidc-ci-cd/">Azure DevOps OIDC</a>.
+      - Examples include <a href="https://learn.microsoft.com/en-us/samples/azure-samples/github-terraform-oidc-ci-cd/github-terraform-oidc-ci-cd/" target="_blank">GitHub OIDC</a>, <a href="https://learn.microsoft.com/en-us/samples/azure-samples/azure-devops-terraform-oidc-ci-cd/azure-devops-terraform-oidc-ci-cd/" target="_blank">Azure DevOps OIDC</a>.
   - Header: Conference Speaking & Training
     Details:
       - Regular speaker at internal conferences (LevelUps, TechConnect and TechReady). Write and deliver sessions on AVM, ALZ, and Terraform best practices.
       - Author of Microsoft customer facing training on IaC with Terraform and Bicep in the form of a Value Based Delivery. Continue to maintain it, promote it and help others to deliver it.
   - Header: Community Involvement
     Details:
-      - Co-organiser of the <a href="https://yorkshiredevops.cloud/">Yorkshire DevOps</a> and <a href="https://yorkshireazuregroup.cloud/">Yorkshire Azure User Group</a> meetups.
+      - Co-organiser of the <a href="https://yorkshiredevops.cloud/" target="_blank">Yorkshire DevOps</a> and <a href="https://yorkshireazuregroup.cloud/" target="_blank">Yorkshire Azure User Group</a> meetups.
       - Regular speaker at these and other events.
 
 Experience:
