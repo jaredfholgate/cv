@@ -20,19 +20,21 @@ BasicInfo:
       Info: Leeds, UK (Remote)
 
 Profile: >
-  Focused on building and operating enterprise-grade cloud platform foundations through reusable infrastructure patterns, Terraform/IaC, and continuous delivery.
-  Hands-on technical lead who sets standards, reviews and ships code, and turns strategy into working reference implementations and automation.
+  Technical lead behind Azure Verified Modules and Azure Landing Zones — Terraform platforms used by thousands of enterprise customers worldwide.
+  Hands-on engineer who sets standards, reviews and ships code, and turns strategy into working reference implementations and automation.
   Comfortable working across product, platform, and customer-facing engineering to drive adoption with maintainable, supportable solutions.
-  Polyglot programmer and fast learner, recently delivering in C#, Go, and TypeScript alongside scripting and automation.
+  Delivering production systems in C#, Go, and TypeScript alongside scripting and automation at scale with Terraform.
 
 RecentHighlights:
   - Header: Azure Verified Modules (AVM)
     Details:
-      - Tech lead, own and maintain <a href="https://azure.github.io/Azure-Verified-Modules/indexes/terraform/tf-resource-modules/">Azure Verified Modules (AVM)</a>, act as a coach and regularly talk to user groups and partners about AVM and vNext of the Azure Landing Zones modules.
-      - Responsible for managing 100's of Terraform repositories at scale with automation.
-  - Header: Azure Landing Zones
+      - Tech lead, own, and maintain <a href="https://azure.github.io/Azure-Verified-Modules/indexes/terraform/tf-resource-modules/">Azure Verified Modules (AVM)</a>, act as a coach and regularly talk to user groups and partners about AVM and vNext of the Azure Landing Zones modules.
+      - Responsible for managing 200+ Terraform repositories at scale with automation.
+      - Own and maintain the core networking modules, which are the most widely used modules in AVM and form the basis of many customer and partner deployments.
+  - Header: Azure Landing Zones (ALZ)
     Details:
-      - Tech lead, develop and maintain the <a href="https://aka.ms/alz/acc">Azure Landing Zones IaC Accelerator</a> and <a href="https://azure.github.io/Azure-Landing-Zones/accelerator/starter-terraform/module-index/">Azure Landing Zones Terraform modules</a>.
+      - Tech lead, develop, and maintain the <a href="https://aka.ms/alz/acc">Azure Landing Zones IaC Accelerator</a> and <a href="https://azure.github.io/Azure-Landing-Zones/accelerator/starter-terraform/module-index/">Azure Landing Zones Terraform modules</a>.
+      - Support customers with onboarding onto Azure and implementing landing zones at scale with Terraform and Bicep.
       - Developed a state migration tool to aid customers in migrating Terraform workloads to AVM. Published <a href="https://aka.ms/alz/tf/migrate">guidance</a> and the <a href="https://aka.ms/tf/migrate/tool">tool</a>. <a href="https://techcommunity.microsoft.com/blog/azuretoolsblog/terraform-azure-verified-modules-for-platform-landing-zone-alz-migration-guidanc/4432035">Blog post</a>.
   - Header: Workload Identity Federation for Terraform
     Details:
@@ -62,9 +64,9 @@ Experience:
         Date: Jun 2024 – Present
         Place: Leeds, UK (Remote)
         Details:
-          - Tech lead for Terraform Azure Verified Modules (AVM), supporting module standards and automation at scale. Owner of core networking modules leveraged by 1,000's of customers.
-          - Tech lead for Azure Landing Zones Modules, responsible for building and maintaining Terraform Platform Landing Zone modules. Owner of the ALZ IaC Accelerator, used by 1,000's of customers to onboard onto Microsoft Azure.
-          - Support global 500 customers with complex and large scale deployments, especially with Infrastructure as Code.
+          - Tech lead for Terraform Azure Verified Modules (AVM), supporting module standards and automation at scale. Owner of core networking modules leveraged by thousands of customers.
+          - Tech lead for Azure Landing Zones Modules, responsible for building and maintaining Terraform Platform Landing Zone modules. Owner of the ALZ IaC Accelerator, used by thousands of customers to onboard onto Microsoft Azure.
+          - Support Fortune 500 and other global enterprise customers with complex and large scale deployments, especially with Infrastructure as Code.
         Badges: ['Terraform', 'Azure', 'Go', 'C#', 'TypeScript', 'IaC', 'DevOps']
       - Title: Senior Cloud Solution Architect – UK CSU
         Date: Nov 2022 – Jun 2024
@@ -83,7 +85,7 @@ Experience:
         Date: Nov 2021 – Nov 2022
         Place: Leeds, UK (Remote)
         Details:
-          - Provided expert level architectural guidance to multinational globally recognised companies.
+          - Provided expert level architectural guidance to FTSE 100 and Fortune 500 companies across financial services, retail, and technology.
           - Terraform SME (Subject Matter Expert) for HashiCorp, which includes product roadmap presentations.
           - Delivered hands on PoC and demos of Security, Service Mesh Networking and Infrastructure as Code.
           - Plan, design and host webinars to large groups of customers.
@@ -213,8 +215,13 @@ Skills:
     Items:
       - Network Design
       - Cloud Landing Zones
-      - ASP.NET
-      - Technical Writing
+      - Microservices
+      - Event-Driven Architecture
+  - Family: Leadership & Delivery
+    Items:
+      - CI/CD Pipelines
+      - Team Leadership & Mentoring
+      - Technical Writing & Training
 
 Diplomas:
   - Microsoft Azure Solution Architect Expert
@@ -222,12 +229,12 @@ Diplomas:
   - Microsoft Azure Data Administrator Associate
   - Microsoft Azure Network Engineer Associate
   - Microsoft Azure Developer Associate
-  - GitHub Copilot
-  - GitHub Actions
+  - GitHub Copilot Certified
+  - GitHub Actions Certified
   - HashiCorp Terraform Associate
 
 Interests:
-  - Distance running & daily exercise
+  - Marathon runner & daily exercise
   - Co-organiser of Yorkshire DevOps & Yorkshire Azure User Group
   - Live music
   - Diving & snorkelling

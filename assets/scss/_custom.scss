@@ -119,6 +119,30 @@ body {
       content: none;
     }
   }
+
+  .interests li,
+  :not(.contact) > ul:not(.skills):not(.skills__group) > li {
+    list-style-type: disc;
+  }
+
+  .interests,
+  :not(.contact) > ul:not(.skills):not(.skills__group) {
+    padding-left: 2rem;
+  }
+
+  .skills, .skills__group {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .contact ul {
+    list-style: none !important;
+    padding-left: 0 !important;
+  }
+
+  .contact li {
+    list-style-type: none !important;
+  }
 }
 
 // Collapsible sections
@@ -191,9 +215,63 @@ details.sideSection {
 }
 
 @media print {
+  @page {
+    margin: 1.5rem 0 0 0;
+  }
+
+  @page :first {
+    margin-top: 0;
+  }
+
   .print-btn,
   .dark-toggle {
     display: none;
+  }
+
+  .content {
+    position: relative;
+    overflow: visible;
+    height: auto;
+    box-shadow: none !important;
+
+    &__left {
+      width: 100%;
+      height: auto;
+      float: none;
+    }
+
+    &__right {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: auto;
+      box-shadow: none !important;
+    }
+  }
+
+  // Page-1 left-column content: keep clear of the right column
+  .mainHeading,
+  .subtitle,
+  #profile,
+  #highlights {
+    margin-right: 32rem;
+  }
+
+  // Experience & beyond: use full width
+  #experience,
+  #education,
+  #references {
+    margin-right: 0;
+  }
+
+  .section__heading,
+  .sideSection__heading {
+    break-after: avoid;
+  }
+
+  .experience__item,
+  .education__item {
+    break-inside: avoid;
   }
 }
 
