@@ -1,0 +1,60 @@
+{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "style.main.scss" . | toCSS | minify | fingerprint }}
+{{ $data := .Scratch.Get "data" }}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Title }}</title>
+
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous" media="screen,print" />
+    <style media="print">
+        @page {
+            @top-left {
+                content: "{{ upper $data.BasicInfo.FirstName }} {{ upper $data.BasicInfo.LastName }}";
+                font-family: Oswald, sans-serif;
+                font-size: 10pt;
+                font-weight: 700;
+                color: {{ .Site.Params.colorPrimary | default "#2b6cb0" }};
+                vertical-align: bottom;
+                padding-bottom: 0.3rem;
+                border-bottom: 2px solid {{ .Site.Params.colorPrimary | default "#2b6cb0" }};
+            }
+            @top-right {
+                content: "{{ $data.BasicInfo.Subtitle }}";
+                font-family: Oswald, sans-serif;
+                font-size: 10pt;
+                font-weight: 400;
+                color: {{ .Site.Params.colorSecondary | default "#a0aec0" }};
+                letter-spacing: 0.1rem;
+                vertical-align: bottom;
+                padding-bottom: 0.3rem;
+                border-bottom: 2px solid {{ .Site.Params.colorPrimary | default "#2b6cb0" }};
+            }
+        }
+        @page :first {
+            @top-left { content: none; }
+            @top-right { content: none; }
+        }
+    </style>
+
+    {{ if .Site.Params.enableMetaTags }}
+        <meta property="og:title" content="{{ .Site.Title }}" />
+        <meta property="og:url" content="{{ .Permalink }}" />
+        <meta property="og:type" content="website" />
+        {{ with $data.BasicInfo.Photo }}
+            <meta property="og:image" content="{{ . | absURL }}" />
+        {{ end }}
+        {{ with $data.Profile | htmlUnescape | emojify | truncate 200 }}
+            <meta property="og:description" content="{{ . }}" />
+            <meta name="description" content="{{ . }}" />
+        {{ end }}
+    {{ end }}
+
+    {{ if .Site.Config.Services.GoogleAnalytics.ID }}
+        {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
+</head>
