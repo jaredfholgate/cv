@@ -217,10 +217,35 @@ details.sideSection {
 @media print {
   @page {
     margin: 3rem 1.5rem 1rem 1.5rem;
+
+    @top-left {
+      content: "JARED HOLGATE";
+      font-family: Oswald, sans-serif;
+      font-size: 10pt;
+      font-weight: 700;
+      color: $color-primary;
+      vertical-align: bottom;
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid $color-primary;
+    }
+
+    @top-right {
+      content: "SENIOR SOFTWARE ENGINEER AND ARCHITECT";
+      font-family: Oswald, sans-serif;
+      font-size: 10pt;
+      font-weight: 400;
+      color: $color-secondary;
+      letter-spacing: 0.1rem;
+      vertical-align: bottom;
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid $color-primary;
+    }
   }
 
   @page :first {
     margin-top: 0;
+    @top-left { content: none; }
+    @top-right { content: none; }
   }
 
   .print-header {
