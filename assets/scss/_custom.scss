@@ -219,7 +219,7 @@ details.sideSection {
     margin: 3rem 1.5rem 1rem 1.5rem;
 
     @top-left {
-      content: "JARED HOLGATE";
+      content: $print-header-name;
       font-family: Oswald, sans-serif;
       font-size: 10pt;
       font-weight: 700;
@@ -230,7 +230,7 @@ details.sideSection {
     }
 
     @top-right {
-      content: "SENIOR SOFTWARE ENGINEER AND ARCHITECT";
+      content: $print-header-subtitle;
       font-family: Oswald, sans-serif;
       font-size: 10pt;
       font-weight: 400;
