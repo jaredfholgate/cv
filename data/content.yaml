@@ -22,7 +22,7 @@ BasicInfo:
       Info: Leeds, UK (Remote)
 
 Profile: >
-  Engineering lead for Azure Verified Modules and Azure Landing Zones — Infrastructure as Code platforms deployed by thousands of enterprise customers worldwide. Hands-on engineer and technical authority across the full IaC stack: from module standards and automation at scale, to Terraform provider development, IDE tooling, and public documentation. Proven track record shipping production code in Go, C#, and TypeScript, and influencing the broader IaC ecosystem through open source contributions, community leadership, and strategic engineering partnerships. Looking to deepen my impact at the platform and tooling layer — shaping the foundational technology that the wider IaC and Azure community builds on.
+  Engineering lead for Azure Verified Modules and Azure Landing Zones — Infrastructure as Code platforms deployed by thousands of enterprise customers worldwide. Hands-on engineer and technical authority across the full IaC stack: from module standards and automation at scale, to Terraform provider development, IDE tooling, and public documentation. Proven track record shipping production code in C#, Go and TypeScript, and influencing the broader IaC ecosystem through open source contributions, community leadership, and strategic engineering partnerships. Looking to deepen my impact at the platform and tooling layer — shaping the foundational technology that the wider IaC and Azure community builds on.
 
 RecentHighlights:
   - Header: Azure Verified Modules (AVM)
