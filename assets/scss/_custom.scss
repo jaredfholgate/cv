@@ -217,15 +217,15 @@ details.sideSection {
 @media print {
   body {
     color: #000;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 
   .content__right {
-    font-size: 1.3rem;
+    font-size: 1.0rem;
   }
 
   .experience__badge {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
   }
 
   @page {
@@ -239,7 +239,9 @@ details.sideSection {
       color: $color-primary;
       vertical-align: bottom;
       padding-bottom: 0.3rem;
-      border-bottom: 1pt solid $color-primary;
+      border-bottom: 1px solid $color-primary;
+      margin-bottom: 1px;
+      margin-color: $color-primary;
     }
 
     @top-right {
@@ -251,7 +253,9 @@ details.sideSection {
       letter-spacing: 0.1rem;
       vertical-align: bottom;
       padding-bottom: 0.3rem;
-      border-bottom: 1pt solid $color-primary;
+      border-bottom: 1px solid $color-primary;
+      margin-bottom: 1px;
+      margin-color: $color-primary;
     }
   }
 
@@ -271,6 +275,7 @@ details.sideSection {
   }
 
   .content {
+    width: 100%;
     position: relative;
     overflow: visible;
     height: auto;
@@ -316,12 +321,17 @@ details.sideSection {
     break-inside: avoid;
   }
 
-  .experience__item:not(:first-child) {
-    padding-top: 0.5rem;
+  .experience__item {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    &:not(:first-child) {
+      padding-top: 0.2rem;
+    }
   }
 
   .experience__job {
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
   }
 
   .experience__place {
