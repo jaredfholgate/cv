@@ -221,9 +221,9 @@ details.sideSection {
     @top-left {
       content: $print-header-name;
       font-family: Oswald, sans-serif;
-      font-size: 10pt;
-      font-weight: 700;
-      color: $color-primary;
+      font-size: 12pt;
+      //font-weight: 700;
+      color: #ffffff;
       vertical-align: bottom;
       padding-bottom: 0.3rem;
       border-bottom: 2px solid $color-primary;
