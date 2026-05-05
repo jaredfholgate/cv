@@ -22,7 +22,7 @@ BasicInfo:
       Info: Leeds, UK (Remote)
 
 Profile: >
-  Engineering lead for Azure Verified Modules and Azure Landing Zones, Infrastructure as Code platforms deployed by thousands of enterprise customers worldwide. Hands-on engineer and technical authority across the full IaC stack: from module standards and automation at scale, to Terraform provider development, IDE tooling, and public documentation. Proven track record shipping production code in C#, Go and TypeScript, and influencing the broader IaC ecosystem through open source contributions, community leadership, and strategic engineering partnerships. Looking to deepen my impact at the platform and tooling layer, shaping the foundational technology that the wider IaC and Azure community builds on.
+  Senior Software Engineer on the Azure Deployments and Bicep team at Microsoft, and engineering lead for Azure Verified Modules and Azure Landing Zones, Infrastructure as Code platforms deployed by thousands of enterprise customers worldwide. Hands-on engineer and technical authority across the full IaC stack: from the core Azure deployment engine and the Bicep language, to module standards and automation at scale, Terraform provider development, IDE tooling, and public documentation. Proven track record shipping production code in C#, Go and TypeScript, and influencing the broader IaC ecosystem through open source contributions, community leadership, and strategic engineering partnerships. Focused on deepening my impact at the platform and tooling layer, shaping the foundational technology that the wider IaC and Azure community builds on.
 
 RecentHighlights:
   - Header: Azure Verified Modules (AVM)
@@ -63,8 +63,16 @@ RecentHighlights:
 Experience:
   - Employer: Microsoft
     Positions:
+      - Title: Senior Software Engineer – Azure Deployments and Bicep
+        Date: May 2026 – Present
+        Place: Leeds, UK (Remote)
+        Details:
+          - Senior Software Engineer on the Azure Deployments and Bicep team, contributing to the core Azure Resource Manager deployment stack and the Bicep language and tooling.
+          - Continue to lead Azure Verified Modules (AVM) and Azure Landing Zones (ALZ), driving module standards, automation at scale, and adoption across thousands of enterprise customers.
+          - Bridge the engineering, product, and field communities across Bicep, Terraform, and AVM/ALZ to shape the foundational technology the wider IaC and Azure ecosystem builds on.
+        Badges: ['Bicep', 'Azure', 'ARM', 'Terraform', 'C#', 'Go', 'TypeScript', 'IaC']
       - Title: Senior Cloud Solution Architect – Global Tech Strategy
-        Date: Jun 2024 – Present
+        Date: Jun 2024 – May 2026
         Place: Leeds, UK (Remote)
         Details:
           - Tech lead for Terraform Azure Verified Modules (AVM), supporting module standards and automation at scale. Owner of core networking modules leveraged by thousands of customers.
